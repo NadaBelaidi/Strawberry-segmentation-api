@@ -6,8 +6,12 @@ uvicorn
 fastapi
 h5py
 python-multipart
+keras
 sys
 os
 matplotlib.pyplot
 werkzeug.utils
 gevent.pywsgi
+matplotlib.image
+tensorflow.keras.applications.imagenet_utils
+tensorflow.keras.applications.imagenet_utils

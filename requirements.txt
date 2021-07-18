@@ -1,9 +1,8 @@
-glob
-tensorflow
+tensorflow==2.5.0rc0
 re
-numpy
-uvicorn
-fastapi
+numpy==1.19.5
+uvicorn==0.14.0
+fastapi==0.66.0
 h5py
 python-multipart
 keras

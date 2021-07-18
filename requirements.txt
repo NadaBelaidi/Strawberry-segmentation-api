@@ -5,9 +5,7 @@ fastapi==0.66.0
 h5py
 python-multipart
 keras
-matplotlib.pyplot
+matplotlib==3.4.2
 werkzeug.utils
 gevent.pywsgi
-matplotlib.image
-tensorflow.keras.applications.imagenet_utils
-tensorflow.keras.applications.imagenet_utils
+

@@ -1,5 +1,4 @@
 tensorflow==2.5.0rc0
-re
 numpy==1.19.5
 uvicorn==0.14.0
 fastapi==0.66.0

@@ -1,22 +1,17 @@
+
 from __future__ import division, print_function
 # coding=utf-8
-
 import os
-
-
 import uvicorn
-from fastapi import FastAPI, Form , File, UploadFile
+from fastapi import FastAPI, File, UploadFile
 from tensorflow import keras
-
 # Keras
 from keras.applications.imagenet_utils import preprocess_input, decode_predictions
 from keras.models import load_model
-from keras.preprocessing import image
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
+
+
 from werkzeug.utils import secure_filename
-from gevent.pywsgi import WSGIServer
-import matplotlib.pyplot as plt
-import matplotlib.image as mpimg
+
 from tensorflow.keras.preprocessing import image as image_utils
 from tensorflow.keras.applications.imagenet_utils import preprocess_input
 

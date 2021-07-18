@@ -1,14 +1,13 @@
 from __future__ import division, print_function
 # coding=utf-8
-import sys
+
 import os
-import glob
-import re
-import numpy as np
+
+
 import uvicorn
 from fastapi import FastAPI, Form , File, UploadFile
 from tensorflow import keras
-import h5py
+
 # Keras
 from keras.applications.imagenet_utils import preprocess_input, decode_predictions
 from keras.models import load_model

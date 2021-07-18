@@ -1,7 +1,7 @@
 glob
-tensoorflow
+tensorflow
 re
-numoy
+numpy
 uvicorn
 fastapi
 h5py
